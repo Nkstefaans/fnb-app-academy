@@ -1,0 +1,139 @@
+/* Basic CSS styling for Transportation World website */
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #0066cc;
+    text-align: center;
+}
+
+h2 {
+    color: #0099ff;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+nav a:hover {
+    background-color: #e6f2ff;
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Image styling */
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+/* Table styling */
+table {
+    border-spacing: 15px;
+    margin: 0 auto;
+}
+
+td {
+    vertical-align: top;
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #666;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+/* Links styling */
+a {
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Paragraph styling */
+p {
+    text-align: justify;
+}
+
+/* List styling with pointer images */
+main ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+main ul li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 8px;
+}
+
+main ul li:before {
+    content: "➤";
+    position: absolute;
+    left: 0;
+    color: #0099ff;
+    font-size: 18px;
+}
+
+/* For External Links section */
+section:nth-of-type(3) ul li:before {
+    content: "👉";
+}
