@@ -9,6 +9,10 @@ body {
     background-color: #f8f8f8;
     color: #333;
 }
+.gallery img {
+    width: 100%;
+   
+}
 
 /* Header styling */
 header {
