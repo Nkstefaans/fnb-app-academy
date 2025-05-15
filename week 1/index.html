@@ -4,54 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .images-container {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        figure {
-            margin: 0;
-            text-align: center;
-            width: 30%;
-        }
-
-        .images-container img {
-            height: 250px;
-            object-fit: cover;
-            width: 100%;
-        }
-
-        figcaption {
-            margin-top: 8px;
-            font-style: italic;
-        }
-    </style>
+    <title>Transportation Home</title>
 </head>
 <body>
-    <h1>Welcome</h1>
-    <h2>Greeting</h2>
-    <p>Hello there! This is a simple greeting paragraph with headings above.</p>
-    <p>HELLO WORLD</p>
+    <header>
+        <h1>Welcome to Transportation World</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="boat.html">Boat Page</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
 
-    <div class="images-container">
-        <figure>
-            <img src="images/boat.jpg" alt="Boat on water">
-            <figcaption>A beautiful boat sailing on the water</figcaption>
-        </figure>
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>Hello there! This is a simple website about different modes of transportation.</p>
+            <p>Explore our collection of transportation images below.</p>
+        </section>
 
-        <figure>
-            <img src="images/plane.jpg" alt="Airplane">
-            <figcaption>An airplane in flight</figcaption>
-        </figure>
+        <section>
+            <h2>Transportation Gallery</h2>
+            <table>
+                <tr>
+                    <td>
+                        <a href="boat.html">
+                            <img src="images/boat.jpg" alt="Boat on water" height="250">
+                        </a>
+                        <p>A beautiful boat sailing on the water</p>
+                    </td>
+                    <td>
+                        <img src="images/plane.jpg" alt="Airplane" height="250">
+                        <p>An airplane in flight</p>
+                    </td>
+                    <td>
+                        <img src="images/cablecar.jpg" alt="Cable car" height="250">
+                        <p>A cable car</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
 
-        <figure>
-            <img src="images/cablecar.jpg" alt="Cable car">
-            <figcaption>A cable car</figcaption>
-        </figure>
-    </div>
+        <section>
+            <h2>External Links</h2>
+            <ul>
+                <li><a href="https://www.google.com" target="_blank">Search on Google</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Transportation World &copy; 2025</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="boat.html">Boat Page</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
